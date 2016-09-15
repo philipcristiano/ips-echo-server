@@ -1,4 +1,5 @@
-set name=pkg.fmri value=example/hello-world@0.1,0.1-0.1.0:20160915T211428Z
+set name=pkg.fmri value=example/hello-world@0.1.1,0.1.1-0.1.1:20160915T211428Z
 set name=pkg.description value="Hello World"
 set name=pkg.summary value="Hello World shell"
+license LICENSE license="MIT License"
 

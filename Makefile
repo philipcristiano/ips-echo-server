@@ -11,6 +11,7 @@ package:
 	mkdir -p ${BUILDDIR}/usr/bin ${BUILDTMP}
 	cp hello-world.sh ${BUILDDIR}/usr/bin/hello-world
 	pkgsend generate build | pkgfmt > ${BUILDTMP}/pkg.pm5.1
+	cp LICENSE ${BUILDDIR}/
 
 	pkgmogrify ${BUILDTMP}/pkg.pm5.1 metadata.mog transform.mog | pkgfmt > ${BUILDTMP}/pkg.pm5.2
         
