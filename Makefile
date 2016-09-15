@@ -25,4 +25,5 @@ ifndef PKGSRVR
 	exit 1
 endif
 	pkgsend publish -s ${PKGSRVR} -d ${BUILDDIR} ${BUILDTMP}/pkg.pm5.final
+	pkgrepo refresh -s ${PKGSRVR}
 
