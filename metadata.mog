@@ -1,6 +1,8 @@
-set name=pkg.fmri value=example/echo-server@0.1.0,0.1.0-0.1.0:20160920T182625Z
+set name=pkg.fmri value=example/echo-server@0.1.4,0.1.4-0.1.4:20160920T182625Z
 set name=pkg.description value="Echo Server"
-set name=pkg.summary value="Echo Server"
-depend fmri=network/netcat type=require
+set name=pkg.summary value="Echo Server example of using SMF"
+
+depend fmri=pkg:/network/netcat type=require
+
 license LICENSE license="MIT License"
 

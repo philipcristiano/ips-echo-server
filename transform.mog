@@ -1,1 +1,3 @@
 <transform dir path=usr -> drop>
+<transform dir path=lib -> drop>
+<transform file path=(var|lib)/svc/manifest/.*\.xml$ -> default restart_fmri svc:/system/manifest-import:default>
