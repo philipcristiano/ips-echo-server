@@ -1,5 +1,6 @@
-set name=pkg.fmri value=example/hello-world@0.1.1,0.1.1-0.1.1:20160915T211428Z
-set name=pkg.description value="Hello World"
-set name=pkg.summary value="Hello World shell"
+set name=pkg.fmri value=example/echo-server@0.1.0,0.1.0-0.1.0:20160920T182625Z
+set name=pkg.description value="Echo Server"
+set name=pkg.summary value="Echo Server"
+depend fmri=network/netcat type=require
 license LICENSE license="MIT License"
 
